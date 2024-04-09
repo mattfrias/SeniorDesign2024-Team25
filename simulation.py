@@ -97,26 +97,26 @@ def main():
     parser = argparse.ArgumentParser(description="Script to setup resources in Kubernetes WithOut Kubelet (KWOK)") # Initialize the command line tool
     subparsers = parser.add_subparsers(title="Available Commands") # Initialize subparsers for different commands
 
-    apply_parser = subparsers.add_parser("apply", help="Apply specified resource") # Add the apply command
+    apply_parser = subparsers.add_parser("apply", help="apply specified resource") # Add the apply command
     apply_parser.add_argument("name", help="Filename") # Add the filename argument
     apply_parser.add_argument("--num", type=int, help="Number of resources to deploy (optional)") # Add the optional number of resources argument
     apply_parser.set_defaults(func=apply) # Set the function to apply
 
-    cluster_parser = subparsers.add_parser("cluster", help="Cluster management (create/delete)") # Add the cluster command
+    cluster_parser = subparsers.add_parser("cluster", help="cluster management (create/delete)") # Add the cluster command
     cluster_parser.add_argument("action", choices=["create", "delete"], help="Cluster Action") # Add the action argument
     cluster_parser.add_argument("name", help="Cluster Name") # Add the cluster name argument
     cluster_parser.set_defaults(func=cluster) # Set the function to cluster
 
-    delete_parser = subparsers.add_parser("delete", help="Delete specified resource") # Add the delete command
+    delete_parser = subparsers.add_parser("delete", help="delete specified resource") # Add the delete command
     delete_parser.add_argument("type", help="Resource Type") # Add the resource type argument
     delete_parser.add_argument("name", help="Resource Name") # Add the resource name argument
     delete_parser.set_defaults(func=delete)  # Set the function to delete
 
-    get_parser = subparsers.add_parser("get", help="Get specified resource") # Add the get command
+    get_parser = subparsers.add_parser("get", help="get specified resource") # Add the get command
     get_parser.add_argument("type", help="resource type") # Add the resource type argument
     get_parser.set_defaults(func=get) # Set the function to get
 
-    show_parser = subparsers.add_parser("show", help="Show pod characteristics") # Add the show command
+    show_parser = subparsers.add_parser("show", help="show pod characteristics") # Add the show command
     show_parser.add_argument("resource", choices=["nodes", "priority", "pods"]) # Add the resource argument
     show_parser.set_defaults(func=show) # Set the function to show
 
