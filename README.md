@@ -9,10 +9,11 @@
 <h3 align="center">Kubernetes Cloud Orchestration Simulation</h3>
 
 <p align="center">
+  <a href="#project-goals">Project Goals</a> •
+  <a href="#evaluation-criteria">Evaluation Criteria</a> •
   <a href="#decision-analysis-report">Decision Analysis Report</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
   <a href="#acknowledgements">Acknowledgements</a>
 </p>
