@@ -4,8 +4,9 @@
   <a href="https://www.sonalysts.com/"><img src="./assets/sonalysts.png" alt="Sonalysts" width="100"></a>
   <br>
     CSE Senior Design - Team 25
-		<p align="center"><small>Kubernetes Cloud Orchestration Simulation</small></p>
 </h1>
+
+<h3 align="center">Kubernetes Cloud Orchestration Simulation</h3>
 
 <p align="center">
   <a href="#decision-analysis-report">Decision Analysis Report</a> •
