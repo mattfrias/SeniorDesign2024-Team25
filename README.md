@@ -1,12 +1,11 @@
-<p align="center">
+<h1 align="center">
   <br>
   <a href="https://www.cse.uconn.edu/"><img src="./assets/coe.png" alt="UConn School of Computing" width="100"></a>
   <a href="https://www.sonalysts.com/"><img src="./assets/sonalysts.png" alt="Sonalysts" width="100"></a>
-  <h1 align="center">
-  CSE Senior Design - Team 25
-  </h1>
-</p>
-	<h3 align="center">Kubernetes Cloud Orchestration Simulation</h3>
+  <br>
+    CSE Senior Design - Team 25
+		<p align="center"><small>Kubernetes Cloud Orchestration Simulation</small></p>
+</h1>
 
 <p align="center">
   <a href="#decision-analysis-report">Decision Analysis Report</a> •
