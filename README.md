@@ -8,15 +8,15 @@
 
 <h3 align="center">Kubernetes Cloud Orchestration Simulation</h3>
 
-<p align="center">
-  <a href="#project-goals">Project Goals</a> •
-  <a href="#evaluation-criteria">Evaluation Criteria</a> •
-  <a href="#decision-analysis-report">Decision Analysis Report</a> •
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#acknowledgements">Acknowledgements</a>
-</p>
+## Table of Contents
+
+- <a href="#project-goals">Project Goals</a>
+- <a href="#evaluation-criteria">Evaluation Criteria</a>
+- <a href="#decision-analysis-report">Decision Analysis Report</a>
+- <a href="#key-features">Key Features</a>
+- <a href="#how-to-use">How To Use</a>
+- <a href="#credits">Credits</a>
+- <a href="#acknowledgements">Acknowledgements</a>
 
 ## Project Goals
 
@@ -67,6 +67,6 @@ This project uses the following software:
 
 ## Acknowledgements
 
-Our team would like to thank Professor Yufeng Wu, our Sonalysts advisor Matthew Ferrier, and the University of Connecticut’s College of Engineering for their support on this CSE design project.
+Our team would like to thank Professor Yufeng Wu, our Sonalysts advisor Matthew Ferrier, and the University of Connecticut’s School of Computing for their support on this CSE design project.
 
 
