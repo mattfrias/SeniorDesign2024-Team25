@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: notes-medium
+  labels:
+    app: notes-app
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: notes-app
+  template:
+    metadata:
+      labels:
+        app: notes-app
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: type
+                operator: In
+                values:
+                - kwok # kwok cluster name
+      tolerations:
+      - key: "kwok.x-k8s.io/node"
+        operator: "Exists"
+        effect: "NoSchedule"
+      containers:
+      - name: notes-app-medium
+        image: pavansa/notes-app
+        resources:
+          requests:
+            cpu: "75m"
+            memory: "10M"
+          limits:
+            cpu: "85m"
+            memory: "30M"
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
+      priorityClassName: medium-priority
