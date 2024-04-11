@@ -60,7 +60,10 @@ def get(args):
 def show(args):
     resource = args.resource
     try:
-        if resource == "nodes":
+        if resource == "assignments":
+            cmd = "kubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces"
+            subprocess.run(cmd, shell=True) # Show what pod is on which node
+        elif resource == "nodes":
             cmd = "kubectl describe nodes | awk '/Allocated resources:/,/ephemeral-storage/ {print}'"
             subprocess.run(cmd, shell=True) # Show node allocated resources
         elif resource == "priority":
@@ -117,7 +120,7 @@ def main():
     get_parser.set_defaults(func=get) # Set the function to get
 
     show_parser = subparsers.add_parser("show", help="show pod characteristics") # Add the show command
-    show_parser.add_argument("resource", choices=["nodes", "priority", "pods"]) # Add the resource argument
+    show_parser.add_argument("resource", choices=["assignments", "nodes", "priority", "pods"]) # Add the resource argument
     show_parser.set_defaults(func=show) # Set the function to show
 
     args = parser.parse_args() # Parse the arguments
