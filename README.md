@@ -1,30 +1,46 @@
+
 <h1 align="center">
-  <br>
   <a href="https://www.cse.uconn.edu/"><img src="./assets/coe.png" alt="UConn School of Computing" width="100"></a>
   <a href="https://www.sonalysts.com/"><img src="./assets/sonalysts.png" alt="Sonalysts" width="100"></a>
   <br>
-    CSE Senior Design - Team 25
+  <span>CSE Senior Design - Team 25</span><br>
+  <span>Kubernetes Cloud Orchestration Simulation</span>
 </h1>
 
-<h3 align="center">Kubernetes Cloud Orchestration Simulation</h3>
+<p style="text-align: center; font-style: italic;">Peter Alonzo, Krishna Chilakapati, Matthew Frias, Tyler Lindberg, Zachary Kollar, Akhil Saini</p>
 
 ## Table of Contents
 
-- <a href="#project-goals">Project Goals</a>
-- <a href="#evaluation-criteria">Evaluation Criteria</a>
-- <a href="#decision-analysis-report">Decision Analysis Report</a>
-- <a href="#key-features">Key Features</a>
-- <a href="#how-to-use">How To Use</a>
-- <a href="#credits">Credits</a>
-- <a href="#acknowledgements">Acknowledgements</a>
+- [Project Goals](#project-goals)
+- [Evaluation Criteria](#evaluation-criteria)
+- [Decision Analysis Report](#decision-analysis-report)
+- [Key Features](#key-features)
+- [How To Use](#how-to-use)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
+- Identify cloud environment for actual system to model
+- Identify target simulation tool using DAR process
+- Replicate actual cloud environment in simulation tool through development
+- Develop test plan to compare simulation with actual cloud environment
+- Conduct testing, update simulation if needed
+- Create video, poster board and final report of findings
+- Work together as a team to evenly divide tasks/work load
+
 ## Evaluation Criteria
+
+> TODO
 
 ## Decision Analysis Report
 
 ![DAR Table](./assets/dar-table.png)
+
+### Summary
+- KWOK is lightweight, supports all project requirements, and has ample documentation for reference
+- Alibaba poses a security concern with the codebase’s country of origin and has minimal documentation available
+- K3D/K3S has slow deployment time and does not support all project requirements
 
 ## Key Features
 
@@ -54,9 +70,6 @@ $ python simulation.py --help
 
 # Add configuration files to the 'resources' folder
 ```
-
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
 ## Credits
 
