@@ -57,7 +57,7 @@
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [KWOK](https://kwok.sigs.k8s.io/docs/user/installation/) and [Python](https://www.python.org/) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com), [KWOK](https://kwok.sigs.k8s.io/docs/user/installation/) and [Python](https://www.python.org/) installed on your computer. From the command line:
 
 ```bash
 # Clone this repository
