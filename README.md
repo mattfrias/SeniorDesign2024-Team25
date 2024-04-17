@@ -7,7 +7,7 @@
   <span>Kubernetes Cloud Orchestration Simulation</span>
 </h1>
 
-<center><em>Peter Alonzo, Krishna Chilakapati, Matthew Frias, Tyler Lindberg, Zachary Kollar, Akhil Saini</em></center>
+<p align="center"><em>Peter Alonzo, Krishna Chilakapati, Matthew Frias, Tyler Lindberg, Zachary Kollar, Akhil Saini</em></p>
 
 
 ## Table of Contents
