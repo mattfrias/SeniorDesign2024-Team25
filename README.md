@@ -1,7 +1,7 @@
 
 <h1 align="center">
-  <a href="https://www.cse.uconn.edu/"><img src="./assets/coe.png" alt="UConn School of Computing" width="100"></a>
-  <a href="https://www.sonalysts.com/"><img src="./assets/sonalysts.png" alt="Sonalysts" width="100"></a>
+  <a href="https://www.cse.uconn.edu/"><img src="./assets/coe.png" alt="UConn School of Computing" width="100"></a><br>
+  <a href="https://www.sonalysts.com/"><img src="./assets/sonalysts.png" alt="Sonalysts" width="400"></a>
   <br>
   <span>CSE Senior Design - Team 25</span><br>
   <span>Kubernetes Cloud Orchestration Simulation</span>
