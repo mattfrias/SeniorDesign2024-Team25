@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <a href="https://www.cse.uconn.edu/"><img src="./assets/coe.png" alt="UConn School of Computing" width="100"></a><br>
   <a href="https://www.sonalysts.com/"><img src="./assets/sonalysts.png" alt="Sonalysts" width="400"></a>
@@ -9,7 +8,6 @@
 
 <p align="center"><em>Peter Alonzo, Krishna Chilakapati, Matthew Frias, Tyler Lindberg, Zachary Kollar, Akhil Saini</em></p>
 
-
 ## Table of Contents
 
 - [Project Goals](#project-goals)
@@ -17,6 +15,8 @@
 - [Decision Analysis Report](#decision-analysis-report)
 - [Key Features](#key-features)
 - [How To Use](#how-to-use)
+- [Poster](#poster)
+- [Video Presentation](#video-presentation)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
 
@@ -32,13 +32,19 @@
 
 ## Evaluation Criteria
 
-> TODO
+<p align="center">
+  <img src="./assets/criteria.png" alt="Evaluation Criteria" width="400">
+</p>
+
+- We conducted introductory research to identify three potential software solutions, then delved deeper into each option to gain a comprehensive understanding
+- We developed prototypes and demos for each software option, presenting them to the team and sponsor for evaluation against the predefined criteria
 
 ## Decision Analysis Report
 
 ![DAR Table](./assets/dar-table.png)
 
 ### Summary
+
 - KWOK is lightweight, supports all project requirements, and has ample documentation for reference
 - Alibaba poses a security concern with the codebase’s country of origin and has minimal documentation available
 - K3D/K3S has slow deployment time and does not support all project requirements
@@ -72,6 +78,16 @@ $ python simulation.py --help
 # Add configuration files to the 'resources' folder
 ```
 
+## Poster
+
+<p align="center">
+  <img src="./assets/poster.jpg" alt="Poster" width="550">
+</p>
+
+## Video Presentation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W800Sngq3N0?si=JG-Sv4MTZq77Ijkb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Credits
 
 This project uses the following software:
@@ -82,5 +98,3 @@ This project uses the following software:
 ## Acknowledgements
 
 Our team would like to thank Professor Yufeng Wu, our Sonalysts advisor Matthew Ferrier, and the University of Connecticut’s School of Computing for their support on this CSE design project.
-
-
