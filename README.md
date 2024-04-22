@@ -41,7 +41,9 @@
 
 ## Decision Analysis Report
 
-![DAR Table](./assets/dar-table.png)
+<p align="center">
+  <img src="./assets/dar-table.png" alt="Evaluation Criteria" width="500">
+</p>
 
 ### Summary
 
@@ -86,8 +88,11 @@ $ python simulation.py --help
 
 ## Video Presentation
 
-[![Video Presentation](https://img.youtube.com/vi/W800Sngq3N0/0.jpg)](https://www.youtube.com/watch?v=W800Sngq3N0)
-
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=W800Sngq3N0">
+    <img src="https://img.youtube.com/vi/W800Sngq3N0/0.jpg" alt="Video Presentation" width="500">
+  </a>
+</p>
 
 ## Credits
 
