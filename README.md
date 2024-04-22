@@ -89,7 +89,7 @@ $ python simulation.py --help
 ## Video Presentation
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=W800Sngq3N0">
+  <a href="https://www.youtube.com/watch?v=W800Sngq3N0" target="_blank">
     <img src="https://img.youtube.com/vi/W800Sngq3N0/0.jpg" alt="Video Presentation" width="500">
   </a>
 </p>
