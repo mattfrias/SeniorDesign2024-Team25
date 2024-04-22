@@ -33,7 +33,7 @@
 ## Evaluation Criteria
 
 <p align="center">
-  <img src="./assets/criteria.png" alt="Evaluation Criteria" width="400">
+  <img src="./assets/criteria.png" alt="Evaluation Criteria" width="500">
 </p>
 
 - We conducted introductory research to identify three potential software solutions, then delved deeper into each option to gain a comprehensive understanding
